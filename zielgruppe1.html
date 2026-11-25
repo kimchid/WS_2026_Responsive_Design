@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PRADA CALM TRIANGLE | Raumduft</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="zielgruppe1.css">
+</head>
+<body>
+<!-- Icon-Sprite (Linien-Icons) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-tri" viewBox="0 0 24 24"><polygon points="12,4 21,20 3,20" pathLength="1"/></symbol>
+<symbol id="i-dia" viewBox="0 0 24 24"><polygon points="12,3 21,12 12,21 3,12" pathLength="1"/></symbol>
+<symbol id="i-sq" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" pathLength="1"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></symbol>
+<symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M15.5 15.5L21 21"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M3 12h17M14 6l6 6-6 6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s6-5.5 6-11a6 6 0 0 0-12 0c0 5.5 6 11 6 11z"/><circle cx="12" cy="10" r="2"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><polygon points="12,3 14.6,9 21,9.5 16,14 17.6,20.5 12,17 6.4,20.5 8,14 3,9.5 9.4,9"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12l5 5 11-11"/></symbol>
+<symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 4l9 16H3zM12 10v4M12 17v.5"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16"/><circle cx="12" cy="12" r="4"/></symbol>
+<symbol id="i-yt" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12"/><path d="M10 9l5 3-5 3z"/></symbol>
+<symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 21v-8h3l.5-3H14V8.5c0-1 .5-1.5 1.5-1.5h2V4h-2.5C12.5 4 11 5.5 11 8v2H8v3h3v8z"/></symbol>
+<symbol id="i-r1" viewBox="0 0 24 24"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></symbol>
+<symbol id="i-r2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/></symbol>
+</defs></svg>
+
+<a class="skip" href="#produkt" data-go>Zum Produkt springen</a>
+
+<!-- 1. HEADER -->
+<header class="hd" id="hd">
+  <div class="hd-in">
+    <div class="hd-l">
+      <button class="ib" data-open="menu" aria-label="Menü"><svg><use href="#i-menu"/></svg><span class="lbl">Menü</span></button>
+      <button class="ib" data-open="search" aria-label="Suchen"><svg><use href="#i-search"/></svg><span class="lbl">Suchen</span></button>
+    </div>
+    <a class="logo" href="#" data-ext="Prada Startseite" aria-label="PRADA Startseite">PRADA</a>
+    <div class="hd-r">
+      <a class="tl kt" href="#" data-ext="Kontakt">Kontakt</a>
+      <a class="ib" href="#" data-ext="Konto / Anmeldung" aria-label="Konto"><svg><use href="#i-user"/></svg></a>
+      <button class="ib bag" data-open="cart" aria-label="Warenkorb"><svg><use href="#i-bag"/></svg><span class="cnt" id="cnt" hidden>0</span></button>
+    </div>
+  </div>
+  <div class="search" id="search" role="dialog" aria-label="Suche">
+    <svg class="si"><use href="#i-search"/></svg>
+    <input id="q" type="search" placeholder="Suchen" aria-label="Suchbegriff">
+    <button class="ib" data-close aria-label="Suche schließen"><svg><use href="#i-close"/></svg></button>
+    <div class="sug"><button class="tl" data-sug>Raumduft</button><button class="tl" data-sug>Calm Triangle</button><button class="tl" data-sug>Home Fragrance</button></div>
+  </div>
+</header>
+
+<!-- 2. BREADCRUMB -->
+<nav class="bc" aria-label="Breadcrumb">
+  <a class="tl" href="#" data-ext="Prada Startseite">Startseite</a><span>/</span>
+  <a class="tl" href="#" data-ext="Wohnkultur &amp; Accessoires">Wohnkultur &amp; Accessoires</a><span>/</span>
+  <b aria-current="page">Raumduft</b>
+</nav>
+
+<main>
+<!-- 3. HERO -->
+<section class="hero">
+  <div class="hero-img"><div class="pxw"><img src="images/hero-z1.jpg" width="1200" height="1000" alt="Schwarzer Tetraeder-Raumduft mit silbernem Dreieck-Logo auf einer Betonbank in einem hellen Raum mit Fenstern"></div></div>
+  <div class="hero-t">
+    <p class="lbl">NEU · HOME FRAGRANCE</p>
+    <h1>PRADA<br>CALM TRIANGLE</h1>
+    <a class="btn auto" href="#produkt" data-go><span>JETZT ENTDECKEN</span></a>
+  </div>
+</section>
+
+<!-- 4. INTRO + NUTZENREIHE -->
+<section class="sec intro" id="intro"><div class="w">
+  <div class="nar" data-stagger="100">
+    <p class="lbl">FORM TRIFFT RAUM</p>
+    <h2>FORM FOLGT RUHE.<br>EIN OBJEKT MIT HALTUNG.</h2>
+    <p>Der Prada Calm Triangle verbindet einen beruhigenden Raumduft mit einer klaren Tetraederform. Ein zurückhaltendes Objekt, das dem Raum einen bewussten Akzent gibt.</p>
+  </div>
+  <div class="bens" data-stagger="120">
+    <div class="bf"><svg class="draw" aria-hidden="true"><use href="#i-tri"/></svg><h3>Geometrie der Ruhe</h3><p>Vier Flächen, sechs Kanten, vier Ecken: Der Tetraeder steht stabil und ordnet den Raum.</p></div>
+    <div class="bf"><svg class="draw" aria-hidden="true"><use href="#i-dia"/></svg><h3>Duft mit drei Ebenen</h3><p>Bergamotte, Iris, weißer Moschus und Zedernholz bilden eine klare, zurückhaltende Komposition.</p></div>
+    <div class="bf"><svg class="draw" aria-hidden="true"><use href="#i-sq"/></svg><h3>Material mit Anspruch</h3><p>Mattschwarze Keramik, von Hand veredelt, mit silbernem Logo-Detail.</p></div>
+  </div>
+</div></section>
+
+<!-- 5. PRODUKTBLOCK -->
+<section class="prod" id="produkt">
+  <div class="gal" id="gal" tabindex="0" role="group" aria-label="Produktgalerie">
+    <img class="act" src="images/produkt-z1-01.jpg" width="1000" height="1000" alt="Schwarzer Tetraeder-Raumduft als Freisteller auf hellgrauem Grund">
+    <img src="images/produkt-z1-02.jpg" width="1000" height="1000" alt="Detailansicht des silbernen Dreieck-Logos auf mattschwarzer Keramik">
+    <img src="images/produkt-z1-03.jpg" width="1000" height="1000" alt="Tetraeder-Raumduft auf einem Regal im Raum, Maßstab zum Raum">
+    <button class="gal-open" aria-label="Bild vergrößern"></button>
+    <button class="gal-next ib" id="next" aria-label="Nächstes Bild"><svg><use href="#i-arrow"/></svg></button>
+    <div class="ctr" aria-live="off"><span class="roll"><b>01</b><b>02</b><b>03</b></span><span>/ 03</span></div>
+  </div>
+  <div class="info" data-stagger="100">
+    <p class="lbl">HOME FRAGRANCE</p>
+    <p class="nm">Raumduft aus Keramik · CALM TRIANGLE</p>
+    <p class="pr">€ 220</p>
+    <p class="note">inkl. MwSt., Versand und Rückgabe kostenlos</p>
+    <p class="note">12 cm hoch · 400 g · bis zu 24 Wochen Duft</p>
+    <div class="col"><p class="lbl">FARBE: SCHWARZ</p><div class="sw" data-tip="Schwarz" tabindex="0" aria-label="Farbe Schwarz, gewählt"><span class="sq"></span><small>Schwarz</small></div></div>
+    <div>
+      <button class="btn" id="add"><span>IN DEN WARENKORB</span><svg><use href="#i-arrow"/></svg></button>
+      <p class="err" id="err" role="alert" hidden><svg><use href="#i-warn"/></svg>Aktuell nicht verfügbar.</p>
+    </div>
+    <a class="tl pin" href="#" data-ext="Store Locator (Calm Triangle vorausgewählt)"><svg><use href="#i-pin"/></svg>IM STORE FINDEN</a>
+  </div>
+</section>
+
+<!-- 6. STORY -->
+<section class="sec story" id="form"><div class="w"><div class="nar" data-stagger="100">
+  <p class="lbl">FORM. DUFT. BALANCE.</p>
+  <h2>DIE FORM DER RUHE</h2>
+  <p>Die skulpturale Tetraeder-Form dieses Raumduft-Objekts ist eine architektonische Hommage an das ikonische Prada-Dreieck-Logo und vereint geometrische Präzision mit einer ausgleichenden, ordnenden Präsenz im Raum. Das mattschwarze Designobjekt mit silbernem Logo-Detail verströmt ganz ohne Flamme oder Strom, geprägt von einen ruhigen Duft der harmonischen Komposition aus Bergamotte, Iris, weißem Moschus und Zedernholz und wird so zum stillen Mittelpunkt von Regal, Sideboard und Tisch.</p>
+</div></div></section>
+
+<!-- 7. BILD-TEXT-BLOCK -->
+<section class="sec itb"><div class="w">
+  <div class="rvimg"><img src="images/ruhe-durch-design-z1.jpg" width="800" height="1000" alt="Tetraeder-Raumduft vor einem Regal mit Büchern"></div>
+  <div class="nar" data-stagger="100"><h2>RUHE DURCH DESIGN</h2><p>Klare Form, matte Oberfläche und ein ruhiger Duft. Calm Triangle schafft Raum für das Wesentliche.</p></div>
+</div></section>
+
+<!-- 8. RITUAL -->
+<section class="sec rit" id="ritual"><div class="w">
+  <div class="nar" data-stagger="100"><p class="lbl">EIN MOMENT. JEDEN TAG.</p><h2>DAS RITUAL DER RUHE</h2></div>
+  <div class="steps" data-stagger="200" data-plain>
+    <div class="step"><p class="num">01</p><div class="rline"><i></i><svg><use href="#i-r1"/></svg></div><div class="st"><h3>Platzieren</h3><p>Einen Ort wählen, an dem die Form wirken kann.</p></div></div>
+    <div class="step"><p class="num">02</p><div class="rline"><i></i><svg><use href="#i-r2"/></svg></div><div class="st"><h3>Belassen</h3><p>Der Duft entfaltet sich.</p></div></div>
+    <div class="step"><p class="num">03</p><div class="rline"><i></i><svg><use href="#i-check"/></svg></div><div class="st"><h3>Ankommen</h3><p>Durchatmen und den Raum wirken lassen.</p></div></div>
+  </div>
+</div></section>
+
+<!-- 9. KUNDENSTIMMEN -->
+<section class="tm" aria-label="Kundenstimmen"><div class="cards" data-stagger="120">
+  <figure class="card"><blockquote>„Eine Skulptur, die zufällig duftet.“</blockquote><div class="stars" role="img" aria-label="5 von 5 Sternen"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div><figcaption>Donatella V.</figcaption></figure>
+  <figure class="card"><blockquote>„Klare Form, die jedes Regal ruhiger macht.“</blockquote><div class="stars" role="img" aria-label="5 von 5 Sternen"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div><figcaption>Christian D.</figcaption></figure>
+  <figure class="card"><blockquote>„Der Duft ist leise und präsent zugleich.“</blockquote><div class="stars" role="img" aria-label="5 von 5 Sternen"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div><figcaption>Coco C.</figcaption></figure>
+</div><svg class="more" aria-hidden="true"><use href="#i-arrow"/></svg></section>
+
+<!-- 10. CTA-BANNER -->
+<section class="cta"><div class="w">
+  <div class="bimgs" data-stagger="150">
+    <div><img src="images/banner-z1-1.jpg" width="640" height="800" alt="Tetraeder-Raumduft auf einem Betonblock"></div>
+    <div><img src="images/banner-z1-2.jpg" width="640" height="800" alt="Hände halten den Tetraeder-Raumduft"></div>
+    <div><img src="images/banner-z1-3.jpg" width="640" height="800" alt="Detail des silbernen Prada-Dreieck-Logos"></div>
+  </div>
+  <div class="ctat" data-stagger="100">
+    <p class="lbl">PRADA CALM TRIANGLE</p>
+    <h2>Geben Sie dem Raum eine ruhige Form.</h2>
+    <a class="btn lt auto" href="#produkt" data-go data-pulse><span>JETZT BESTELLEN</span></a>
+  </div>
+</div></section>
+
+<!-- 11. NEWSLETTER -->
+<section class="sec nl" id="newsletter"><div class="w"><div class="nar" data-stagger="100">
+  <h2>UNSEREN NEWSLETTER ERHALTEN</h2>
+  <p>Erhalten Sie Neuigkeiten zu Design, Form und neuen Perspektiven aus der Welt von Prada.</p>
+  <form id="nl" novalidate>
+    <div class="field"><input id="em" type="email" placeholder="E-Mail-Adresse eingeben" aria-label="E-Mail-Adresse" autocomplete="email"><button class="ib" id="nlsend" type="submit" aria-label="Absenden"><svg><use href="#i-arrow"/></svg></button></div>
+    <p class="msg" id="nlm" aria-live="polite"></p>
+  </form>
+  <div class="soc"><a class="ib" href="#" data-ext="Instagram (neuer Tab)" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a><a class="ib" href="#" data-ext="X (neuer Tab)" aria-label="X"><svg><use href="#i-close"/></svg></a><a class="ib" href="#" data-ext="YouTube (neuer Tab)" aria-label="YouTube"><svg><use href="#i-yt"/></svg></a><a class="ib" href="#" data-ext="Facebook (neuer Tab)" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a></div>
+</div></div></section>
+</main>
+
+<!-- 12. FOOTER -->
+<footer class="ft"><div class="w">
+  <div class="fcols">
+    <div><p class="lbl">NEWSLETTER</p><a class="tl" href="#newsletter" data-go>Abonnieren</a><a class="tl" href="#" data-ext="Abmeldeseite">Abmelden</a></div>
+    <div><p class="lbl">KONTAKT</p><a class="tl" href="#" data-ext="Kontakt">Kontakt</a><a class="tl" href="#" data-ext="Häufige Fragen">Häufige Fragen</a></div>
+    <div><p class="lbl">SERVICES</p><a class="tl" href="#" data-ext="Versand">Versand</a><a class="tl" href="#" data-ext="Rückgabe">Rückgabe</a></div>
+    <div><p class="lbl">UNTERNEHMEN</p><a class="tl" href="#" data-ext="Über Prada">Über Prada</a><a class="tl" href="#" data-ext="Prada Home Fragrance">Prada Home Fragrance</a></div>
+    <div><p class="lbl">RECHTLICHE BEDINGUNGEN</p><a class="tl" href="#" data-ext="Datenschutz">Datenschutz</a><a class="tl" href="#" data-ext="Nutzungsbedingungen">Nutzungsbedingungen</a><a class="tl" href="#" data-ext="Impressum">Impressum</a></div>
+  </div>
+  <div class="fbot">
+    <a class="tl pin" href="#" data-ext="Store Locator"><svg><use href="#i-pin"/></svg>Store Locator</a>
+    <button class="tl" data-open="lang">Standort / Sprache</button>
+    <span class="note">© PRADA 2026</span>
+  </div>
+</div></footer>
+
+<!-- LAYER -->
+<div id="ov"></div>
+<aside class="pan" id="menu" role="dialog" aria-label="Menü">
+  <div class="ph"><button class="ib" data-close aria-label="Menü schließen"><svg><use href="#i-close"/></svg></button></div>
+  <ul class="ml">
+    <li><a href="#produkt" data-go>Entdecken</a></li><li><a href="#form" data-go>Form</a></li><li><a href="#ritual" data-go>Ritual</a></li><li><a href="#newsletter" data-go>Newsletter</a></li><li><a href="#" data-ext="Kontakt">Kontakt</a></li>
+  </ul>
+</aside>
+<aside class="pan" id="cart" role="dialog" aria-label="Warenkorb">
+  <div class="ph"><span class="nm">Warenkorb</span><button class="ib" data-close aria-label="Warenkorb schließen"><svg><use href="#i-close"/></svg></button></div>
+  <div class="pb"><div id="cartBody"></div><button class="tl" data-close>WEITER STÖBERN</button></div>
+</aside>
+<div id="zoom" role="dialog" aria-label="Bildvergrößerung"><button class="ib" data-close aria-label="Vergrößerung schließen"><svg><use href="#i-close"/></svg></button><img id="zimg" alt=""></div>
+<div id="lang" role="dialog" aria-label="Land und Sprache"><p class="nm">Land und Sprache</p>
+  <button class="tl" data-lang>Deutschland · Deutsch</button><button class="tl" data-lang>Italia · Italiano</button><button class="tl" data-lang>United States · English</button>
+  <button class="ib" data-close aria-label="Schließen"><svg><use href="#i-close"/></svg></button></div>
+<div id="cookie" role="region" aria-label="Cookie-Hinweis"><p>Diese Seite verwendet Cookies.</p><button class="tl" data-cc>ABLEHNEN</button><button class="btn lt auto" data-cc><span>AKZEPTIEREN</span></button></div>
+<div id="toast" role="status"></div>
+<p id="live" class="sr" aria-live="polite"></p>
+<script src="zielgruppe1.js"></script>
+</body>
+</html>
